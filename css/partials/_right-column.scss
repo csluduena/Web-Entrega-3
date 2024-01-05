@@ -1,0 +1,69 @@
+.main-title-b {
+    padding-top: 3rem;
+    text-align: center;
+    font-family: "rockersquad";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.right-content-body {
+    padding-top: 3rem;
+    text-align: center;
+    font-family: "font-printcess";
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 18rem;
+    padding-right: 18rem; 
+    padding-bottom: 10rem;
+}
+
+.animated-title1{
+    display:flex;
+    justify-content: center;
+    padding-top:3rem;
+    font-size: 40px;
+}
+
+.animated-title2 {
+    font-size: 30px;
+}
+
+.animated-title3 {
+    display:flex;
+    justify-content: center;
+    font-size: 60px;
+    padding-bottom:3rem;
+}
+
+.forte1 {
+    font-size: 65px;
+}
+
+.p1 {
+    color:$color3;
+}
+
+.botom-right-config {
+    display:flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.radio-popup-arrow { //encierra el arrow gif y el popup juntos
+    
+    
+}
+
+.img-arrow-c { //padre directo del arrow gif
+    
+}
+
+.arrow-gif { //clase directa del arrow gif
+    
+    
+}
+
+.radio-popup-boton { //popup de escuchar radio
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}

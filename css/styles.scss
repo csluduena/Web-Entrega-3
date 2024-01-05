@@ -1,0 +1,38 @@
+@import "./partials/variables";
+@import "./partials/reset";
+@import "./partials/animate-config";
+@import "./partials/header";
+@import "./partials/left-column";
+@import "./partials/right-column";
+@import "./partials/main";
+@import "./partials/footer";
+
+@font-face {
+    font-family: "DatBox";
+    src: url("../fonts/DatBox.ttf")
+}
+
+@font-face {
+    font-family: "Art-Post";
+    src: url("../fonts/Art-Post.ttf")
+}
+
+@font-face {
+    font-family: "cursif";
+    src: url("../fonts/cursif.ttf")
+}
+
+@font-face {
+    font-family: "didactgothic-regular";
+    src: url("../fonts/didactgothic-regular.ttf")
+}
+
+@font-face {
+    font-family: "font-printcess";
+    src: url(../fonts/font-printcess.ttf)
+}
+
+@font-face {
+    font-family: "rockersquad";
+    src: url(../fonts/rockersquad.ttf)
+}

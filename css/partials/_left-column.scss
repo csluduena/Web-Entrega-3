@@ -1,0 +1,48 @@
+.logo-radio {
+    display:flex;
+    justify-content: center;
+    padding: 1rem;
+    filter: brightness(4);
+}
+
+.center-logo-radio {
+    margin-bottom:13px;
+    max-width: 100%;
+}
+
+.pg-cnfg1 {
+    display: flex;
+    justify-content: center;
+}
+
+.title-programa-destacado {
+    max-width: 70%;
+    filter: brightness(4);
+}
+
+.img-programa-destacado {
+    max-width: 70%;
+}
+
+.txt-programa-destacado {
+    font-family: "font-printcess";
+    padding-top: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.txt-monito-coder {
+    font-family: "font-printcess";
+    padding-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 5px;
+    text-align: center;
+}
+
+.img-monito-coder {
+    max-width: 60%;
+    padding-bottom: 1rem;
+}

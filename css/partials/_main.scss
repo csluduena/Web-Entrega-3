@@ -1,0 +1,26 @@
+
+.grid-body-main {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100%;
+}
+
+.columna-left-main {
+    color:$color2;
+    background-color: $color1; /* Color de fondo para la primera columna */
+}
+
+.column-right-main {
+    color:$color1;
+    background-color: $color2; /* Color de fondo para la segunda columna */
+}
+
+hr {
+    margin-top:0;
+    margin-bottom:0;
+    color:$color2;
+}
+
+strong {
+    color:$color3;
+}

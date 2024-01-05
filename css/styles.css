@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-primary {
+  background-color: #3E131B;
+  overflow: hidden;
+}
+
+.navbar-primary ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-primary li {
+  float: left;
+}
+
+.navbar-primary a {
+  display: block;
+  color: #CACECA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-primary a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.banner-top-main {
+  display: flex;
+  justify-content: center;
+  background-color: #3E131B;
+}
+
+.logo-radio {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  filter: brightness(4);
+}
+
+.center-logo-radio {
+  margin-bottom: 13px;
+  max-width: 100%;
+}
+
+.pg-cnfg1 {
+  display: flex;
+  justify-content: center;
+}
+
+.title-programa-destacado {
+  max-width: 70%;
+  filter: brightness(4);
+}
+
+.img-programa-destacado {
+  max-width: 70%;
+}
+
+.txt-programa-destacado {
+  font-family: "font-printcess";
+  padding-top: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 35px;
+  text-align: center;
+}
+
+.txt-monito-coder {
+  font-family: "font-printcess";
+  padding-top: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 5px;
+  text-align: center;
+}
+
+.img-monito-coder {
+  max-width: 60%;
+  padding-bottom: 1rem;
+}
+
+.main-title-b {
+  padding-top: 3rem;
+  text-align: center;
+  font-family: "rockersquad";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.right-content-body {
+  padding-top: 3rem;
+  text-align: center;
+  font-family: "font-printcess";
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  padding-bottom: 10rem;
+}
+
+.animated-title1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-size: 40px;
+}
+
+.animated-title2 {
+  font-size: 30px;
+}
+
+.animated-title3 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  padding-bottom: 3rem;
+}
+
+.forte1 {
+  font-size: 65px;
+}
+
+.p1 {
+  color: #3E131B;
+}
+
+.botom-right-config {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.radio-popup-boton {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.grid-body-main {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: 100%;
+}
+
+.columna-left-main {
+  color: #CACECA;
+  background-color: #0A2733; /* Color de fondo para la primera columna */
+}
+
+.column-right-main {
+  color: #0A2733;
+  background-color: #CACECA; /* Color de fondo para la segunda columna */
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #CACECA;
+}
+
+strong {
+  color: #3E131B;
+}
+
+.footer-bgd {
+  background-color: #3E131B;
+  color: #CACECA;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-footer {
+  background-color: #3E131B;
+  overflow: hidden;
+}
+
+.navbar-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-footer li {
+  float: left;
+}
+
+.navbar-footer a {
+  margin: 8px;
+  display: block;
+  border-radius: 2rem;
+  color: #CACECA;
+  text-align: center;
+  padding: 2px 16px;
+  text-decoration: none;
+}
+
+.navbar-footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  background-color: #3E131B;
+}
+
+.copyright-bottom {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 6px;
+  margin-bottom: 0rem;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: "DatBox";
+  src: url("../fonts/DatBox.ttf");
+}
+@font-face {
+  font-family: "Art-Post";
+  src: url("../fonts/Art-Post.ttf");
+}
+@font-face {
+  font-family: "cursif";
+  src: url("../fonts/cursif.ttf");
+}
+@font-face {
+  font-family: "didactgothic-regular";
+  src: url("../fonts/didactgothic-regular.ttf");
+}
+@font-face {
+  font-family: "font-printcess";
+  src: url(../fonts/font-printcess.ttf);
+}
+@font-face {
+  font-family: "rockersquad";
+  src: url(../fonts/rockersquad.ttf);
+}/*# sourceMappingURL=styles.css.map */

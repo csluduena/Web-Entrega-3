@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-primary {
+    background-color: $color3;
+    overflow: hidden;
+}
+
+.navbar-primary ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-primary li {
+    float: left;
+}
+
+.navbar-primary a {
+    display: block;
+    color:$color2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-primary a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.banner-top-main {
+    display: flex;
+    justify-content: center;
+    background-color: $color3;
+}
