@@ -1,24 +1,37 @@
 .grilla-programacion {
-  
-  display:flex;
 
+// justify-content: flex-start;
+// flex-direction: column;
+  
+}
+
+.container-fluid {
+  display:flex;
+  background-color: $color2;
+  flex-direction: column;
+  
 }
 
 .row {
-  max-width: 100%;
-}
-
-.custom-grid {
-  background-color: $color2;
- 
-
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .custom-column {
   background-color: $color2;
   color: $color1;
   padding: 10px;
-  margin: 5px;
+  margin: 1px;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
   border: 1px solid $color5;
   text-align: center;
+}
+
+.mt-5, .my-5 { //agregado para reemplazar un margin que dejaba bootstrap de 3rem por default.
+  margin-top: 0rem !important;
 }

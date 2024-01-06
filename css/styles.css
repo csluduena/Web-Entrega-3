@@ -181,6 +181,10 @@ body {
   padding-bottom: 1rem;
 }
 
+main {
+  background-color: #CACECA;
+}
+
 .grid-body-main {
   display: grid;
   grid-template-columns: 15% 85%;
@@ -262,25 +266,34 @@ body {
   font-size: 15px;
 }
 
-.grilla-programacion {
+.container-fluid {
   display: flex;
+  background-color: #CACECA;
+  flex-direction: column;
 }
 
 .row {
+  display: flex;
+  width: 95%;
+  flex-direction: row;
   max-width: 100%;
-}
-
-.custom-grid {
-  background-color: #CACECA;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .custom-column {
   background-color: #CACECA;
   color: #0A2733;
   padding: 10px;
-  margin: 5px;
+  margin: 1px;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
   border: 1px solid #7D2636;
   text-align: center;
+}
+
+.mt-5, .my-5 {
+  margin-top: 0rem !important;
 }
 
 @font-face {
