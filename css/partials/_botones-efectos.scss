@@ -1,0 +1,31 @@
+.fila {
+    display: block;
+    padding:1rem;
+    color: $color2;
+    background-color: $color3;
+    transition: filter 0.3 ease;
+}
+
+.fila.blurred {
+    filter:blur(1px);
+}
+
+.botones-izquierda:hover {
+    background-color: $color3;
+    cursor: pointer;
+}
+
+.fila:hover {
+    color: $color2;
+    background-color: $color4;
+    cursor: pointer;
+}
+
+.fila:active {
+    color: $color3; /* Cambia el color al hacer clic */
+    background-color: $color2;
+}
+
+a {
+    color: $color3;
+}

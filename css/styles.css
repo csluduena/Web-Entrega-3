@@ -4,6 +4,38 @@
   box-sizing: border-box;
 }
 
+.fila {
+  display: block;
+  padding: 1rem;
+  color: #CACECA;
+  background-color: #3E131B;
+  transition: filter 0.3 ease;
+}
+
+.fila.blurred {
+  filter: blur(1px);
+}
+
+.botones-izquierda:hover {
+  background-color: #3E131B;
+  cursor: pointer;
+}
+
+.fila:hover {
+  color: #CACECA;
+  background-color: #533956;
+  cursor: pointer;
+}
+
+.fila:active {
+  color: #3E131B; /* Cambia el color al hacer clic */
+  background-color: #CACECA;
+}
+
+a {
+  color: #3E131B;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
