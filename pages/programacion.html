@@ -6,7 +6,7 @@
     <title>Programación</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -57,21 +57,32 @@
                     </div>
                 </div>
             </div>
-                <div class="botom-right-config">
-                    <div class="animate__animated animate__fadeIn animate__delay-5s radio-popup-arrow">
-                        <div class="img-arrow-c">
-                            <img class="arrow-gif" src="../img/arrow.gif" alt="gifarrow">
+            
+                <!--COMIENZA PROGRAMACION-->
+                <div class="grilla-programacion">
+                    <div class="container-fluid mt-5 custom-grid">
+                        <div class="row">
+                            <div class="col-md-5 custom-column">
+                                <p>LUNES A VIERNES</p>
+                            </div>
+                            <div class="col-md-5 custom-column">
+                                <p>SABADOS Y DOMINGOS</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-5 custom-column">
+                                <p>Programa 3</p>
+                            </div>
+                            <div class="col-md-5 custom-column">
+                                <p>Programa 3</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="animate__animated animate__fadeIn animate__delay-4s radio-popup-boton">
-                        <!-- Inicio. radio hosting USAstreams.com html5 player -->
-                        <!-- Licencia: GRATIS-XDF4543ERF -->
-                        <button id="ventanaSecundaria317186"><img width="100%" height="100%" src="https://cp.usastreams.com/playerHTML5/img/vivo/vivo2.gif"></button><script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script><script id="rendered-js">      function window_open(url) {  window.open("https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://servidor2.hostradios.com/proxy/341rock?mp=/stream/&fondo=05&formato=mp3&color=4&titulo=2&autoStart=1&vol=5&tipo=13&nombre=Radio+Brayanne&imagen=https://i.imgur.com/Y8CK3uQ.png", "Radio en Vivo",   "width=480, height=140, top =85,left=50");}document.getElementById("ventanaSecundaria317186").onclick = function () {window_open();};      //# sourceURL=pen.js    </script>
-                        <!-- En players responsive puede modificar el weight a sus necesidades, Por favor no modifique el resto del codigo para poder seguir ofreciendo este servicio gratis  -->
-                        <!-- Fin. USAstreams.com html5 player -->
-                    </div>
-                </div>
-            </div>
+
+                </div> 
+                <!--CIERRA PROGRAMACION-->
+            <!--acá ba el "ESCUCHAR EN VIVO" traer de index, desde "botom-right-config" y cambiar la ruta de las imágenes de "Index" como origen a "Programación"-->
         </div>
     </main>
             
@@ -96,7 +107,7 @@
     </footer>
 
 <!--SCRIPTS-->
-<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="../js/botones.js"></script>
 
 </body>

@@ -1,0 +1,24 @@
+.grilla-programacion {
+  
+  display:flex;
+
+}
+
+.row {
+  max-width: 100%;
+}
+
+.custom-grid {
+  background-color: $color2;
+ 
+
+}
+
+.custom-column {
+  background-color: $color2;
+  color: $color1;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid $color5;
+  text-align: center;
+}

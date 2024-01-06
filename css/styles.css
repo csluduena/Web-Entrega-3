@@ -262,6 +262,27 @@ body {
   font-size: 15px;
 }
 
+.grilla-programacion {
+  display: flex;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.custom-grid {
+  background-color: #CACECA;
+}
+
+.custom-column {
+  background-color: #CACECA;
+  color: #0A2733;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #7D2636;
+  text-align: center;
+}
+
 @font-face {
   font-family: "DatBox";
   src: url("../fonts/DatBox.ttf");
