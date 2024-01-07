@@ -1,15 +1,7 @@
-.grilla-programacion {
-
-// justify-content: flex-start;
-// flex-direction: column;
-  
-}
-
 .container-fluid {
   display:flex;
   background-color: $color2;
   flex-direction: column;
-  
 }
 
 .row {
@@ -35,3 +27,51 @@
 .mt-5, .my-5 { //agregado para reemplazar un margin que dejaba bootstrap de 3rem por default.
   margin-top: 0rem !important;
 }
+
+.title-progamacion {
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "rockersquad";
+  font-size: 50px;
+}
+
+.col-titl3 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-family: "font-printcess";
+  padding:0;
+
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.ptx1 {
+  font-family: "font-printcess";
+  padding:0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  .p-horario {
+    font-family: "didactgothic-regular";
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .ptx2 {
+    font-size: 24px;
+    font-weight: bolder;
+  }
+}
+
+.config-hr {
+  border: 2px solid $color5;
+}
+
+
+
+
+//         <div class="p-subrayado">
+//             <span>Programa:</span> <span class="ptx1">Mañanas Musicales</span>
+//         </div>
