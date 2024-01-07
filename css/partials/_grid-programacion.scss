@@ -67,11 +67,5 @@
 
 .config-hr {
   border: 2px solid $color5;
+  opacity: 10; //tuve que agregarlo para anular una opacidad que dejaba bootstrap por default.
 }
-
-
-
-
-//         <div class="p-subrayado">
-//             <span>Programa:</span> <span class="ptx1">Mañanas Musicales</span>
-//         </div>

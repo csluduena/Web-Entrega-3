@@ -334,6 +334,26 @@ body {
 
 .config-hr {
   border: 2px solid #7D2636;
+  opacity: 10;
+}
+
+.body-text-ausp, .body-text-content-p2 {
+  text-align: center;
+  font-family: "font-printcess";
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.body-text-content-p2 {
+  text-decoration: underline;
+  text-decoration-color: #7D2636;
+  margin-bottom: 2rem;
+}
+
+.config-carousel {
+  margin: 3rem;
+  border: 20px solid #7D2636;
+  border-radius: 2rem;
 }
 
 @font-face {
