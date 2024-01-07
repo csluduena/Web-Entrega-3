@@ -8,6 +8,12 @@
 @import "./partials/footer";
 @import "./partials/grid-programacion";
 @import "./partials/auspiciantes";
+@import "./partials/radiolive";
+@import "./partials/contacto";
+
+:root {
+    --bs-border-radius-sm: 0;
+}
 
 @font-face {
     font-family: "DatBox";

@@ -1,0 +1,141 @@
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #0A2733;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-style-c {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group label {
+    color: #CACECA;
+    font-weight: bold;
+}
+
+.form-group {
+    text-align: center;    
+    margin: 15px;
+}
+
+.form-group select {
+    height: 100px; /* Ajusta la altura según tus preferencias */
+    
+}
+
+.preview-container {
+    margin-top: 20px;
+}
+
+.preview {
+    background-color: #3E131B;
+    color: #CACECA;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.f-g-confg {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estilos {
+    display:flex;
+    
+}
+
+.btn-group {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top:0px !important;
+    
+}
+
+.btn-group-vertical {
+    margin-top: 10px; /* Ajusta según sea necesario */
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 150%;
+}
+
+.btn-group-vertical .btn {
+    margin-bottom: 5px; /* Ajusta según sea necesario */
+    
+}
+
+button{
+    display:flex;
+    margin: 0px !important;
+}
+
+.preview {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: $color1;
+}
+
+.btn-snd {
+    background-color: $color2;
+    color: $color1;
+    font-weight: bold;
+    border-color: $color3;
+}
+
+.btn-snd:hover  {
+    background-color: $color5;
+    color: $color4;
+    border-color: $color5;
+    font-weight: bold;
+}
+
+.btn-snd:active {
+    background-color: $colorfondo !important;
+    color: $color2 !important;
+    font-weight: bold !important;
+    border-color: $color4 !important;
+}
+
+.btn:hover {
+    background-color: $color3;
+    color: $color2;
+    font-weight: bold;
+}
+
+.form-style-1, .form-style-2, .form-style-3 {
+    display:flex;
+    flex-direction: column;
+    width: 55%;
+    font-weight: bold;
+}
+
+.form-style-4 {
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.btnsubmit {
+    margin-top: 1rem;
+}
+
+.btn-danger {
+    font-weight: normal;
+    padding: 2px;
+    border-color: $color2;
+}
+
+.rpb-configcontacto {
+    padding-top: 3rem;
+}

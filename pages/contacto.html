@@ -60,6 +60,13 @@
             <!-- ↓↓↓↓ COMIENZA Barra derecha ↓↓↓↓ -->
             <div class="column-right-main">
                 <!--ACA CONTENIDO DE LA WEB EN LA PARTE DERECHA (MAIN)-->
+                <br><hr class="config-hr">
+                    <div class="title-progamacion">
+                        <div class="conf-prog">Habla con nosotros</div>
+                    </div>
+                <hr class="config-hr"><br>
+                <!--ACA CONTENIDO DE LA WEB EN LA PARTE DERECHA (MAIN)-->
+                    
 
 
 
@@ -74,16 +81,102 @@
 
 
 
+
+                <div class="container form-container">
+                    <form class="form-style-c">
+                        <div class="form-group form-style-1">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                        </div>
+                        <div class="form-group form-style-2">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Escribe tu apellido">
+                        </div>
+                        <div class="form-group form-style-3">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="correo" placeholder="Escribe tu correo electrónico">
+                        </div>
+                        <div class="form-group f-g-confg">
+                            <label for="estilos">Elige tus 3 estilos musicales favoritos:</label>
+                            <div class="btn-group-vertical" id="estilos-group">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Rock')">Rock</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Pop')">Pop</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Rap')">Rap</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Reggaeton')">Reggaeton</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Clásica')">Clásica</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Reggae')">Reggae</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Country')">Country</button>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Blues')">Blues</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Jazz')">Jazz</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Disco')">Disco</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Electrónica')">Electrónica</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Indie')">Indie</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Alternativa')">Alternativa</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Latina')">Salsa</button>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Instrumental')">Instrumental</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Heavy Metal')">HeavyMetal</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('House')">House</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Techno')">Techno</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Trance')">Trance</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Dubstep')">Dubstep</button>
+                                    <button type="button" class="btn btn-secondary btn-sm" onclick="toggleEstilo('Trap')">Trap</button>
+                                </div>
+                                <!-- Agregar más opciones -->
+                            </div>
+                        </div>
+                        <div class="form-group form-style-4">
+                            <label for="mensaje">Escribe tu mensaje aquí:</label>
+                            <textarea class="form-control" id="mensaje" rows="6" placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+                        <!-- Preview de estilos seleccionados -->
+                        <button type="button" class="btn btn-danger" onclick="clearSelection()">Limpiar</button>
+                        <div class="preview-container" id="preview-container"></div>
+                        <button type="submit" class="btn-snd btn btn-primary btnsubmit">Enviar</button>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                    <!--Inicia "botom-right-config" (Flecha + PopUP)-->
                 <div class="botom-right-config">
                     <div class="animate__animated animate__fadeIn animate__delay-5s radio-popup-arrow">
-                        <div class="img-arrow-c">
+                        <!-- <div class="img-arrow-c">
                             <img class="arrow-gif" src="../img/arrow.gif" alt="gifarrow">
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="animate__animated animate__fadeIn animate__delay-4s radio-popup-boton">
+                    <div class="animate__animated animate__fadeIn animate__delay-4s radio-popup-boton rpb-configcontacto">
                         <!-- Inicio. radio hosting USAstreams.com html5 player -->
                         <!-- Licencia: GRATIS-XDF4543ERF -->
-                        <button id="ventanaSecundaria317186"><img width="100%" height="100%" src="https://cp.usastreams.com/playerHTML5/img/vivo/vivo2.gif"></button><script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script><script id="rendered-js">      function window_open(url) {  window.open("https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://servidor2.hostradios.com/proxy/341rock?mp=/stream/&fondo=05&formato=mp3&color=4&titulo=2&autoStart=1&vol=5&tipo=13&nombre=Radio+Brayanne&imagen=https://i.imgur.com/Y8CK3uQ.png", "Radio en Vivo",   "width=480, height=140, top =85,left=50");}document.getElementById("ventanaSecundaria317186").onclick = function () {window_open();};      //# sourceURL=pen.js    </script>
+                        <button id="ventanaSecundaria317186"><img width="100%" height="100%" src="https://cp.usastreams.com/playerHTML5/img/vivo/vivo2.gif"></button><script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script><script id="rendered-js">      function window_open(url) {  window.open("https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://ice2.edge-apps.net/radio1_high-20057.audio&fondo=05&formato=mp3&color=4&titulo=2&autoStart=1&vol=5&tipo=13&nombre=Radio+Brayanne&imagen=https://i.imgur.com/Y8CK3uQ.png", "Radio en Vivo",   "width=480, height=140, top =85,left=50");}document.getElementById("ventanaSecundaria317186").onclick = function () {window_open();};      //# sourceURL=pen.js    </script>
                         <!-- En players responsive puede modificar el weight a sus necesidades, Por favor no modifique el resto del codigo para poder seguir ofreciendo este servicio gratis  -->
                         <!-- Fin. USAstreams.com html5 player -->
                     </div> <!--Cierra "radio-popup-boton"-->
@@ -91,8 +184,6 @@
             </div> <!--Cierra "column-right-main"-->
         </div> <!-- Cierra "grid-body-main" -->
     </main>
-            
-
     <footer>
         <div class="footer-bgd">
             <div class="footer-content">
@@ -110,11 +201,18 @@
                 <h6>Radio Brayanne® 2023 | Todos los derechos reservados</h6>
             </div>
         </div>
+        <div class="ir-arriba button">
+            <a href="#">IR ARRIBA</a>
+        </div>
     </footer>
 
 <!--SCRIPTS-->
-<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../js/script.js"></script>
 <script src="../js/botones.js"></script>
 
 </body>
 </html>
+
