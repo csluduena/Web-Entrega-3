@@ -10,7 +10,6 @@
             padding: 14px 09px;
         }
     }
-
     .grid-body-main {
         display: flex;
         
@@ -24,8 +23,7 @@
     .logo-para-top {
         width: 30%;
         height: 30%;
-    }    
-
+    }
 //****************** COLUMNA IZQUIERDA Query 480-600 ******************
     .grid-body-main {
         .columna-left-main {
@@ -59,8 +57,8 @@
                 }
             } 
         }
-    }// Cierra Estilos para el iframe
-}
+        }// Cierra Estilos para el iframe
+    }
 //****************** FOOTER Query 480-600 ******************
     .footer-content {
         .navbar-footer a {
@@ -112,8 +110,6 @@
         width: 50%;
         height: 30%;
     }
-
-
 //********* MEDIA PARA AUSPICIANTES.HTML Query 480-600 *********
     .column-right-main {
         .body-text-ausp {
@@ -123,7 +119,6 @@
         }
     }
 }
-
 @media (min-width: 50px) and (max-width: 479px) {
     .top-img-low-reso {
         .logo-para-top {

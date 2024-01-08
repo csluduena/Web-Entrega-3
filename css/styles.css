@@ -292,7 +292,7 @@ strong {
     height: 30%;
   }
 }
-@media (min-width: 300px) and (max-width: 479.98px) {
+@media (min-width: 200px) and (max-width: 479.98px) {
   .navbar-primary {
     background-color: #3E131B;
     overflow: hidden;
@@ -372,6 +372,9 @@ strong {
   }
   .radio-rep {
     padding-bottom: 3rem;
+  }
+  .cuadroBordeado {
+    width: 80%;
   }
   .column-right-main .body-text-ausp {
     font-size: 28px;
@@ -783,12 +786,16 @@ h3 {
   margin-top: 10px; /* Ajusta según sea necesario */
   display: flex;
   flex-direction: row;
-  gap: 5px;
-  width: 150%;
+  gap: 0px;
+  width: 100%;
+  margin-bottom: 5px; /* Ajusta según sea necesario */
 }
 
-.btn-group-vertical .btn {
-  margin-bottom: 5px; /* Ajusta según sea necesario */
+.estilos-text-c, .conf-cont {
+  color: #CACECA !important;
+  border: 0;
+  height: 25px;
+  background-image: linear-gradient(to right, rgba(10, 39, 51, 0.5), #7D2636, rgba(10, 39, 51, 0.5));
 }
 
 button {

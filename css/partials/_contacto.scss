@@ -64,13 +64,19 @@
     margin-top: 10px; /* Ajusta según sea necesario */
     display:flex;
     flex-direction: row;
-    gap: 5px;
-    width: 150%;
+    gap: 0px;
+    width: 100%;
+    margin-bottom: 5px; /* Ajusta según sea necesario */
 }
 
-.btn-group-vertical .btn {
-    margin-bottom: 5px; /* Ajusta según sea necesario */
-    
+//subrayado con puntos
+
+
+.estilos-text-c, .conf-cont {
+    color:$color2 !important;
+    border: 0;
+    height: 25px;
+    background-image: linear-gradient(to right, rgba(10, 39, 51, 0.5), #7D2636, rgba(10, 39, 51, 0.5));
 }
 
 button{

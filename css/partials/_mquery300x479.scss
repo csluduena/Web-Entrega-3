@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 479.98px) {
+@media (min-width: 200px) and (max-width: 479.98px) {
     //********* MEDIA PARA INDEX.HTML Query 300-479 *********
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
@@ -13,8 +13,8 @@
 
     .grid-body-main {
         display: flex;
-        
     }
+
 //****************** TOP Query 300-479 ******************
     .top-img-low-reso {
         display:flex !important;
@@ -22,7 +22,6 @@
         justify-content: center
     }
     .logo-para-top {
-        
         width: 30%;
         height: 30%;
     }    
@@ -97,6 +96,9 @@
         .main-title-b {
             padding-top: 1rem;
         }
+        .btn-group-vertical {
+            
+        }
     }
 //********* MEDIA PARA RADIOLIVE.HTML Query 300-479 *********
     .column-right-main {
@@ -108,6 +110,10 @@
     }
     .radio-rep {
         padding-bottom: 3rem;
+    }
+
+    .cuadroBordeado {  //ancho de reproductor para querys
+        width: 80%;
     }
 
 
