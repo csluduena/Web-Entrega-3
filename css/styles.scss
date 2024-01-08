@@ -1,18 +1,23 @@
+//Config. de la página y setup de variables y main base.
 @import "./partials/variables";
 @import "./partials/reset";
-@import "./partials/querys";
+@import "./partials/main";
+//Media Queries
 @import "./partials/mquery769x1200";
+@import "./partials/mquery601x768";
+@import "./partials/mquery480x600";
+//Partes del Cuerpo de página.
 @import "./partials/header";
 @import "./partials/left-column";
 @import "./partials/right-column";
-@import "./partials/main";
 @import "./partials/footer";
+//Secciones de la web por página.
 @import "./partials/grid-programacion";
 @import "./partials/auspiciantes";
 @import "./partials/radiolive";
 @import "./partials/contacto";
 @import "./partials/_botones-efectos";
-
+//-------------------------- Fin de queries --------------------------
 :root {
     --bs-border-radius-sm: 0;
 }

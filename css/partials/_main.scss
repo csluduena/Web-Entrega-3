@@ -1,6 +1,13 @@
+.grid-body-main {
+    min-height: 1250px; // Establecer el mínimo de altura según tus necesidades
+}
 
 main {
     background-color: $color2;
+}
+
+.dont-share-high-reso {
+    display:none;
 }
 
 .grid-body-main {
@@ -31,7 +38,4 @@ strong {
 
 .radio-popup-boton {
     padding-bottom: 3rem;
-}
-
-@media (min-width: 480px) {
 }

@@ -1,15 +1,27 @@
-@media (min-width: 600px) and (max-width: 768px) {
-    //********* MEDIA PARA INDEX.HTML Query 600-768 *********
+@media (min-width: 601px) and (max-width: 768px) {
+    //********* MEDIA PARA INDEX.HTML Query 601-768 *********
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
         overflow: hidden;
-        font-size: 11px;
-}
-//****************** COLUMNA IZQUIERDA Query 600-768 ******************
+        font-size: 12px;
+    }
+    .banner-top-main {
+        .navbar-primary a {
+            padding: 14px 09px;
+        }
+    }
+
+    .dont-share-high-reso {
+        display:none;
+    }
+//****************** COLUMNA IZQUIERDA Query 601-768 ******************
     .columna-left-content {
         .text-pd {
-            font-size: 23px;
+            font-size: 20px;
             line-height: 1.5rem;// line-height para renglones en horizontal
+        }
+        .txt-monito-coder {
+            font-size: 16px;
         }
         .monito-coder {
             width: 70%;
@@ -23,7 +35,7 @@
             justify-content: flex-end;
         }
     }
-//****************** COLUMNA DERECHA Query 600-768 ******************
+//****************** COLUMNA DERECHA Query 601-768 ******************
     .column-right-main {
         .animated-title3 {
             font-size: 40px;
@@ -50,11 +62,11 @@
         }
     }// Cierra Estilos para el iframe
 }
-//****************** FOOTER Query 600-768 ******************
+//****************** FOOTER Query 601-768 ******************
     .footer-content {
         .navbar-footer a {
-            padding: 2px 7px;
-            font-size: 13px;
+            padding: 2px 3px;
+            font-size: 10px;
         }      
     }
     footer {
@@ -65,7 +77,7 @@
             font-size: 14px;
         }
     }
-//********* MEDIA PARA PROGRAMACION.HTML Query 600-768 *********
+//********* MEDIA PARA PROGRAMACION.HTML Query 601-768 *********
     .title-progamacion {
         .conf-prog {
             text-align: center;
@@ -76,7 +88,7 @@
             font-size: 20px;
         }
     }
-//********* MEDIA PARA CONTACTO.HTML Query 600-768 *********
+//********* MEDIA PARA CONTACTO.HTML Query 601-768 *********
     .column-right-main {
         .form-container {
             transform: scale(0.8); // Reducción del 30%
@@ -84,7 +96,7 @@
             margin: 0 auto;
         }
     }
-//********* MEDIA PARA RADIOLIVE.HTML Query 600-768 *********
+//********* MEDIA PARA RADIOLIVE.HTML Query 601-768 *********
     .radio-rep {
         padding-bottom: 3rem;
     }
