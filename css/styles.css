@@ -540,6 +540,25 @@ body {
   padding-bottom: 1rem;
 }
 
+.title-h1-inicial {
+  font-family: "DatBox";
+  color: #0A2733;
+  text-align: center;
+}
+
+.hr-effect {
+  border: 4px solid #0A2733;
+  color: #3E131B;
+  background-color: #7D2636;
+  height: 14px;
+  opacity: 10;
+}
+
+.h1-cef {
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
 .footer-bgd {
   background-color: #3E131B;
   color: #CACECA;
