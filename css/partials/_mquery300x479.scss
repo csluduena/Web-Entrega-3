@@ -1,5 +1,5 @@
-@media (min-width: 480px) and (max-width: 600px) {
-    //********* MEDIA PARA INDEX.HTML Query 480-600 *********
+@media (min-width: 300px) and (max-width: 479.98px) {
+    //********* MEDIA PARA INDEX.HTML Query 300-479 *********
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
         overflow: hidden;
@@ -15,7 +15,7 @@
         display: flex;
         
     }
-//****************** TOP Query 480-600 ******************
+//****************** TOP Query 300-479 ******************
     .top-img-low-reso {
         display:flex !important;
         background-color: $color1;
@@ -27,13 +27,13 @@
         height: 30%;
     }    
 
-//****************** COLUMNA IZQUIERDA Query 480-600 ******************
+//****************** COLUMNA IZQUIERDA Query 300-479 ******************
     .grid-body-main {
         .columna-left-main {
             display:none;
             }
         }
-//****************** COLUMNA DERECHA Query 480-600 ******************
+//****************** COLUMNA DERECHA Query 300-479 ******************
     .column-right-main {
         .animated-title3 {
             font-size: 40px;
@@ -62,7 +62,7 @@
         }
     }// Cierra Estilos para el iframe
 }
-//****************** FOOTER Query 480-600 ******************
+//****************** FOOTER Query 300-479 ******************
     .footer-content {
         .navbar-footer a {
             padding: 2px 3px;
@@ -77,7 +77,7 @@
             font-size: 14px;
         }
     }
-//********* MEDIA PARA PROGRAMACION.HTML Query 480-600 *********
+//********* MEDIA PARA PROGRAMACION.HTML Query 300-479 *********
     .title-progamacion {
         .conf-prog {
             text-align: center;
@@ -89,7 +89,7 @@
             font-size: 20px;
         }
     }
-//********* MEDIA PARA CONTACTO.HTML Query 480-600 *********
+//********* MEDIA PARA CONTACTO.HTML Query 300-479 *********
     .column-right-main {
         .form-container {
             transform: scale(0.8); // Reducción del 30%
@@ -97,7 +97,7 @@
             margin: 0 auto;
         }
         .animated-title1, .animated-title2, .animated-title3 {
-        font-size: 25px;
+        font-size: 15px;
         margin-bottom: 2px;
         }
         .animated-title1 {
@@ -110,7 +110,7 @@
             padding-top: 1rem;
         }
     }
-//********* MEDIA PARA RADIOLIVE.HTML Query 480-600 *********
+//********* MEDIA PARA RADIOLIVE.HTML Query 300-479 *********
     .column-right-main {
         .body-text-envivo {
             font-size: 28px;
@@ -123,7 +123,7 @@
     }
 
 
-//********* MEDIA PARA AUSPICIANTES.HTML Query 480-600 *********
+//********* MEDIA PARA AUSPICIANTES.HTML Query 300-479 *********
     .column-right-main {
         .body-text-ausp {
             font-size: 28px;

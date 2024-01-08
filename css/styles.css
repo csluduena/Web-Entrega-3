@@ -287,6 +287,100 @@ strong {
     padding-right: 5rem;
   }
 }
+@media (min-width: 300px) and (max-width: 479.98px) {
+  .navbar-primary {
+    background-color: #3E131B;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .banner-top-main .navbar-primary a {
+    padding: 14px 9px;
+  }
+  .grid-body-main {
+    display: flex;
+  }
+  .top-img-low-reso {
+    display: flex !important;
+    background-color: #0A2733;
+    justify-content: center;
+  }
+  .logo-para-top {
+    width: 30%;
+    height: 30%;
+  }
+  .grid-body-main .columna-left-main {
+    display: none;
+  }
+  .column-right-main .animated-title3 {
+    font-size: 40px;
+  }
+  .column-right-main .right-content-body {
+    font-size: 20px;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .column-right-main .forte1 {
+    font-size: 40px;
+  }
+  .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button {
+    width: 250px;
+    height: 50px;
+  }
+  .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-content .navbar-footer a {
+    padding: 2px 3px;
+    font-size: 10px;
+  }
+  footer .ir-arriba {
+    font-size: 10px;
+  }
+  footer .copy-config {
+    font-size: 14px;
+  }
+  .title-progamacion .conf-prog {
+    text-align: center;
+    font-size: 45px;
+  }
+  .cnf-p600 .col-titl3 {
+    font-size: 20px;
+  }
+  .column-right-main .form-container {
+    transform: scale(0.8);
+    transform-origin: center center;
+    margin: 0 auto;
+  }
+  .column-right-main .animated-title1, .column-right-main .animated-title2, .column-right-main .animated-title3 {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  .column-right-main .animated-title1 {
+    padding-top: 1rem;
+  }
+  .column-right-main p, .column-right-main .p1 {
+    margin-bottom: 2px;
+  }
+  .column-right-main .main-title-b {
+    padding-top: 1rem;
+  }
+  .column-right-main .body-text-envivo {
+    font-size: 28px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .radio-rep {
+    padding-bottom: 3rem;
+  }
+  .column-right-main .body-text-ausp {
+    font-size: 28px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
