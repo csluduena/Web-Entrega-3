@@ -554,9 +554,13 @@ body {
   opacity: 10;
 }
 
-.h1-cef {
+.h1-cef, .h1-cef2 {
   padding-top: 3rem;
   font-weight: bold;
+}
+
+.h1-cef2 {
+  text-decoration: underline;
 }
 
 .footer-bgd {
@@ -882,6 +886,50 @@ button {
 
 .rpb-configcontacto {
   padding-top: 3rem;
+}
+
+.wapp2 {
+  text-align: center;
+}
+
+.wapp1, .wapp3 {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "didactgothic-regular";
+}
+
+.wapp1 {
+  padding-top: 3rem;
+  padding-bottom: 20px;
+}
+
+.wapp3 {
+  padding-top: 20px;
+}
+
+.whatsapp-color {
+  text-align: center;
+  width: 8rem;
+  font-size: 25px;
+  color: #25D366;
+  background-color: #128C7E;
+  border-radius: 2rem;
+  border: 4px solid #075E54;
+  padding: 0;
+}
+
+.whatsapp-color:hover {
+  color: #075E54;
+  background-color: #25D366;
+  border-radius: 2rem;
+  border: 4px solid #128C7E;
+}
+
+.img-dedo {
+  display: flex;
+  justify-content: center;
+  transform: scaleY(-1);
+  padding-bottom: 3rem;
 }
 
 .fila {
