@@ -3,7 +3,7 @@
         .navbar-primary { //Tamaño botones Header
             background-color: $color3;
             overflow: hidden;
-            font-size: 11px;
+            font-size: 16px;
     }
     .dont-share-high-reso {
         display:none;
@@ -72,17 +72,6 @@
                 font-size: 14px;
             }
         }
-    //********* MEDIA PARA PROGRAMACION.HTML Query 769-1200 *********
-        .title-progamacion {
-            .conf-prog {
-                text-align: center;
-            }
-        }
-        .cnf-p769 {
-            .col-titl3 {
-                font-size: 20px;
-            }
-        }
     //********* MEDIA PARA CONTACTO.HTML Query 769-1200 *********
         .column-right-main {
             .form-container {
@@ -96,3 +85,5 @@
             padding-bottom: 3rem;
         }
     }
+
+    

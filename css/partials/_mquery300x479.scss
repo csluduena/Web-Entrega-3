@@ -77,18 +77,6 @@
             font-size: 14px;
         }
     }
-//********* MEDIA PARA PROGRAMACION.HTML Query 300-479 *********
-    .title-progamacion {
-        .conf-prog {
-            text-align: center;
-            font-size: 45px;
-        }
-    }
-    .cnf-p600 {
-        .col-titl3 {
-            font-size: 20px;
-        }
-    }
 //********* MEDIA PARA CONTACTO.HTML Query 300-479 *********
     .column-right-main {
         .form-container {
@@ -129,6 +117,9 @@
             font-size: 28px;
             padding-left: 5rem;
             padding-right: 5rem;
+        }
+        .body-text-content-p2 {
+            font-size: 26px;
         }
     }
 }
