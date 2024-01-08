@@ -1,0 +1,91 @@
+@media (min-width: 769px) and (max-width: 1200px) { 
+    //********* MEDIA PARA INDEX.HTML Query 769-1200 *********
+        .navbar-primary { //Tamaño botones Header
+            background-color: $color3;
+            overflow: hidden;
+            font-size: 11px;
+    }
+    //****************** COLUMNA IZQUIERDA Query 769-1200 ******************
+        .columna-left-content {
+            .text-pd {
+                font-size: 23px;
+                line-height: 1.5rem;// line-height para renglones en horizontal
+            }
+            .monito-coder {
+                width: 70%;
+                height: 70%;
+                .img-monito-coder {
+                    width: 70%;
+                    height: 70%;
+                }
+            }   
+            .pg-cnfg3 {
+                justify-content: flex-end;
+            }
+        }
+    //****************** COLUMNA DERECHA Query 769-1200 ******************
+        .column-right-main {
+            .animated-title3 {
+                font-size: 40px;
+            }
+            .right-content-body {
+            font-size: 25px;
+            padding-top:0rem;
+            padding-bottom: 2rem;
+            }
+            .forte1 {
+                font-size: 40px;
+            }
+          // Estilos para el iframe
+        .botom-right-config {
+            .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton {
+                button {
+                    width: 250px;
+                    height: 50px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }// Cierra Estilos para el iframe
+    }
+    //****************** FOOTER Query 769-1200 ******************
+        .footer-content {
+            .navbar-footer a {
+                padding: 2px 7px;
+                font-size: 13px;
+            }      
+        }
+        footer {
+            .ir-arriba {
+                font-size: 10px;
+            }
+            .copy-config {
+                font-size: 14px;
+            }
+        }
+    //********* MEDIA PARA PROGRAMACION.HTML Query 769-1200 *********
+        .title-progamacion {
+            .conf-prog {
+                text-align: center;
+            }
+        }
+        .cnf-p769 {
+            .col-titl3 {
+                font-size: 20px;
+            }
+        }
+    //********* MEDIA PARA CONTACTO.HTML Query 769-1200 *********
+        .column-right-main {
+            .form-container {
+                transform: scale(0.8); // Reducción del 30%
+                transform-origin: center center; // Mantener la esquina superior izquierda como punto de origen
+                margin: 0 auto;
+            }
+        }
+    //********* MEDIA PARA RADIOLIVE.HTML Query 769-1200 *********
+        .radio-rep {
+            padding-bottom: 3rem;
+        }
+    }

@@ -1,6 +1,6 @@
 @import "./partials/variables";
 @import "./partials/reset";
-@import "./partials/_botones-efectos";
+@import "./partials/querys";
 @import "./partials/header";
 @import "./partials/left-column";
 @import "./partials/right-column";
@@ -10,6 +10,7 @@
 @import "./partials/auspiciantes";
 @import "./partials/radiolive";
 @import "./partials/contacto";
+@import "./partials/_botones-efectos";
 
 :root {
     --bs-border-radius-sm: 0;

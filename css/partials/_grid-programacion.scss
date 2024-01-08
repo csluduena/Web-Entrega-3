@@ -77,3 +77,9 @@
 .grilla-programacion {
   padding-top: 4rem;
 }
+
+.tintear-prog {
+  color: $color2;
+  background-color: $color2;
+  opacity: 0.3; //tuve que agregarlo para anular una opacidad que dejaba bootstrap por default.
+}

@@ -10,6 +10,11 @@
     max-width: 100%;
 }
 
+.pg-cnfg3 {
+    display: flex;
+    justify-content: center;
+}
+
 .pg-cnfg1 {
     display: flex;
     justify-content: center;
@@ -26,7 +31,8 @@
 
 .txt-programa-destacado {
     font-family: "font-printcess";
-    padding-top: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 35px;

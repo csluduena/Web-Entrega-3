@@ -5,38 +5,71 @@
   box-sizing: border-box;
 }
 
-.fila {
-  display: block;
-  padding: 1rem;
-  color: #CACECA;
-  background-color: #3E131B;
-  transition: filter 0.3 ease;
+@media (min-width: 600px) and (max-width: 768px) {
+  .navbar-primary {
+    background-color: #3E131B;
+    overflow: hidden;
+    font-size: 11px;
+  }
+  .columna-left-content .text-pd {
+    font-size: 23px;
+    line-height: 1.5rem;
+  }
+  .columna-left-content .monito-coder {
+    width: 70%;
+    height: 70%;
+  }
+  .columna-left-content .monito-coder .img-monito-coder {
+    width: 70%;
+    height: 70%;
+  }
+  .columna-left-content .pg-cnfg3 {
+    justify-content: flex-end;
+  }
+  .column-right-main .animated-title3 {
+    font-size: 40px;
+  }
+  .column-right-main .right-content-body {
+    font-size: 25px;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+  .column-right-main .forte1 {
+    font-size: 40px;
+  }
+  .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button {
+    width: 250px;
+    height: 50px;
+  }
+  .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-content .navbar-footer a {
+    padding: 2px 7px;
+    font-size: 13px;
+  }
+  footer .ir-arriba {
+    font-size: 10px;
+  }
+  footer .copy-config {
+    font-size: 14px;
+  }
+  .title-progamacion .conf-prog {
+    text-align: center;
+  }
+  .cnf-p600 .col-titl3 {
+    font-size: 20px;
+  }
+  .column-right-main .form-container {
+    transform: scale(0.8);
+    transform-origin: center center;
+    margin: 0 auto;
+  }
+  .radio-rep {
+    padding-bottom: 3rem;
+  }
 }
-
-.fila.blurred {
-  filter: blur(1px);
-}
-
-.botones-izquierda:hover {
-  background-color: #3E131B;
-  cursor: pointer;
-}
-
-.fila:hover {
-  color: #CACECA;
-  background-color: #533956;
-  cursor: pointer;
-}
-
-.fila:active {
-  color: #3E131B; /* Cambia el color al hacer clic */
-  background-color: #CACECA;
-}
-
-a {
-  color: #3E131B;
-}
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -89,6 +122,11 @@ body {
   max-width: 100%;
 }
 
+.pg-cnfg3 {
+  display: flex;
+  justify-content: center;
+}
+
 .pg-cnfg1 {
   display: flex;
   justify-content: center;
@@ -105,7 +143,8 @@ body {
 
 .txt-programa-destacado {
   font-family: "font-printcess";
-  padding-top: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 35px;
@@ -140,9 +179,9 @@ body {
   font-family: "font-printcess";
   font-size: 40px;
   font-weight: bold;
-  padding-left: 18rem;
-  padding-right: 18rem;
-  padding-bottom: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 5rem;
 }
 
 .animated-title1 {
@@ -274,7 +313,7 @@ body {
   text-align: center;
   font-weight: bolder;
   padding: 3px;
-  font-size: 15px;
+  font-size: 12px;
   bottom: 10px;
   right: 10px;
   position: fixed;
@@ -384,6 +423,12 @@ a:hover {
 
 .grilla-programacion {
   padding-top: 4rem;
+}
+
+.tintear-prog {
+  color: #CACECA;
+  background-color: #CACECA;
+  opacity: 0.3;
 }
 
 .body-text-ausp, .body-text-content-p2 {
@@ -553,6 +598,38 @@ button {
 
 .rpb-configcontacto {
   padding-top: 3rem;
+}
+
+.fila {
+  display: block;
+  padding: 1rem;
+  color: #CACECA;
+  background-color: #3E131B;
+  transition: filter 0.3 ease;
+}
+
+.fila.blurred {
+  filter: blur(1px);
+}
+
+.botones-izquierda:hover {
+  background-color: #3E131B;
+  cursor: pointer;
+}
+
+.fila:hover {
+  color: #CACECA;
+  background-color: #533956;
+  cursor: pointer;
+}
+
+.fila:active {
+  color: #3E131B; /* Cambia el color al hacer clic */
+  background-color: #CACECA;
+}
+
+a {
+  color: #3E131B;
 }
 
 :root {
