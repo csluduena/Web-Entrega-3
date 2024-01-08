@@ -48,6 +48,11 @@ strong {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
+  .grid-body-main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+  }
   .navbar-primary {
     background-color: #3E131B;
     overflow: hidden;
@@ -74,6 +79,10 @@ strong {
   }
   .columna-left-content .pg-cnfg3 {
     justify-content: flex-end;
+  }
+  .columna-left-content .logo-radio .center-logo-radio {
+    margin-bottom: 13px;
+    max-width: 100%;
   }
   .column-right-main .animated-title3 {
     font-size: 40px;
@@ -114,6 +123,11 @@ strong {
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
+  .grid-body-main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+  }
   .navbar-primary {
     background-color: #3E131B;
     overflow: hidden;
@@ -262,10 +276,20 @@ strong {
   .radio-rep {
     padding-bottom: 3rem;
   }
+  .logo-para-top {
+    width: 50%;
+    height: 30%;
+  }
   .column-right-main .body-text-ausp {
     font-size: 28px;
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+}
+@media (min-width: 50px) and (max-width: 479px) {
+  .top-img-low-reso .logo-para-top {
+    width: 50%;
+    height: 30%;
   }
 }
 @media (min-width: 300px) and (max-width: 479.98px) {
@@ -611,11 +635,13 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-family: "rockersquad";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .grid-item {
   font-family: "didactgothic-regular";
+  background-color: #3E131B;
+  color: #CACECA;
 }
 
 .config-hr {
@@ -630,11 +656,11 @@ a:hover {
 }
 
 h3 {
-  color: #0A2733;
+  color: #CACECA;
 }
 
 .grid-item {
-  border: 1px solid #3E131B;
+  border: 4px solid #7D2636;
   margin: 10px;
   padding: 10px;
 }

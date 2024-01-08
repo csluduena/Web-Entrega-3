@@ -1,5 +1,10 @@
 @media (min-width: 769px) and (max-width: 1200px) { 
     //********* MEDIA PARA INDEX.HTML Query 769-1200 *********
+    .grid-body-main {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        height: 100%;
+    }
         .navbar-primary { //Tamaño botones Header
             background-color: $color3;
             overflow: hidden;
@@ -28,6 +33,12 @@
             }   
             .pg-cnfg3 {
                 justify-content: flex-end;
+            }
+            .logo-radio {
+                .center-logo-radio {
+                margin-bottom:13px;
+                max-width: 100%;
+                }
             }
         }
     //****************** COLUMNA DERECHA Query 769-1200 ******************

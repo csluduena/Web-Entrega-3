@@ -1,5 +1,10 @@
 @media (min-width: 601px) and (max-width: 768px) {
     //********* MEDIA PARA INDEX.HTML Query 601-768 *********
+    .grid-body-main {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        height: 100%;
+    }
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
         overflow: hidden;

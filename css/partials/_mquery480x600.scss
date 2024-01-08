@@ -108,6 +108,10 @@
     .radio-rep {
         padding-bottom: 3rem;
     }
+    .logo-para-top {
+        width: 50%;
+        height: 30%;
+    }
 
 
 //********* MEDIA PARA AUSPICIANTES.HTML Query 480-600 *********
@@ -116,6 +120,15 @@
             font-size: 28px;
             padding-left: 5rem;
             padding-right: 5rem;
+        }
+    }
+}
+
+@media (min-width: 50px) and (max-width: 479px) {
+    .top-img-low-reso {
+        .logo-para-top {
+            width: 50%;
+            height: 30%;
         }
     }
 }
