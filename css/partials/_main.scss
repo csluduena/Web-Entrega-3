@@ -32,6 +32,23 @@ hr {
     color:$color2;
 }
 
+.h1-title-base {
+    font-family: "font-printcess";
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 4rem;
+    margin: 5px;
+}
+
+.h2-title-base {
+    font-family: "font-printcess";
+    text-decoration: underline;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: normal;
+    margin: 5px;
+}
+
 strong {
     color:$color3;
 }

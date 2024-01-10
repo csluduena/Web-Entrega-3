@@ -8,4 +8,63 @@
 
 .radio-rep {
     text-align: center;
+    padding-top: 3rem;
+}
+
+.mark-section {
+    font-size: 50px;
+    font-family: "font-printcess";
+    margin:8rem;
+    text-align: justify;
+    //border-radius: 2rem;
+    //quitar espacios entre lineas de texto 
+    padding:0;
+}
+
+.mark-color1 {
+    background-color: $color3;
+    color: $color2;
+    //border-radius: 2rem;
+    padding:0;
+}
+.mark-color2 {
+    background-color: $color1;
+    color: $color2;
+    //border-radius: 2rem;
+    padding:0;
+}
+
+.mark-section {
+    background-color: $color1;
+    border-radius: 2rem;
+    padding: 2rem;
+    
+}
+
+@media (max-width: 1200px) {
+    .mark-section {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mark-section {
+        font-size: 30px;
+        margin: 3rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .mark-section {
+        font-size: 20px;
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 481px) {
+    .mark-section {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 1rem;
+    }
 }

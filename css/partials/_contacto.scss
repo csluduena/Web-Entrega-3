@@ -186,3 +186,33 @@ button{
     transform: scaleY(-1);
     padding-bottom: 3rem;
 }
+
+@media (max-width: 1201px) {
+    .h2-title-base {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 773px) {
+    .form-container {
+        max-width: 450px;
+    }
+    .h1-title-base {
+        font-size: 2.5rem;
+    }
+    .h2-title-base {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 471px) {
+    .form-container {
+        max-width: 370px;
+    }
+}
+
+@media (max-width: 371px) {
+    .form-container {
+        max-width: 340px;
+    }
+}
