@@ -1,16 +1,18 @@
-@media (min-width: 200px) and (max-width: 479.98px) {
+@media (min-width: 200px) and (max-width: 299px) {
     //********* MEDIA PARA INDEX.HTML Query 300-479 *********
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
         overflow: hidden;
-        font-size: 12px;
+    }
+    .banner-top-main {
+        .navbar-primary a {
+            padding: 5px 09px;
+            font-size: 14px;
+        }
     }
 
-    .banner-top-main {
-        background-color: $color1 !important;
-        .navbar-primary a {
-            padding: 14px 09px;
-        }
+    .natvar-background {
+        background-color: $color1;
     }
 
     .radiolive-h3 {
@@ -126,13 +128,7 @@
         .copy-config {
             font-size: 14px;
         }
-
-        .navbar-footer {
-            font-size: 22px;
-        }
     }
-
-    
 //********* MEDIA PARA CONTACTO.HTML Query 300-479 *********
     .column-right-main {
         .form-container {
@@ -184,60 +180,7 @@
     }
 }
 
-.radio-rep {
-    padding-bottom: 3rem;
-}
-.logo-para-top {
-}
 
-.logo-para-bot {
-    width: 120px;
-    margin:0;
-}
-
-.gridbottom-sm{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-
-}
-
-.grid-sma {
-    display: flex;
-}
-
-.logo-para-bot2 {
-    width: 120px;
-    margin:0;
-}
-
-.text-pd11 {
-    font-size: 12px;
-}
-
-.espacio-1 {
-    margin-right: 10px;
-}
-
-.espacio-2 {
-    margin-right: 10px;
-}
-
-.espacio-3 {
-        
-}
-
-
-
-.title-slo {
-    color: $color2;
-}
-
-.img-monito-coder {
-    width: 110px;
-    margin:0;
-}
 
 
 

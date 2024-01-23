@@ -40,20 +40,30 @@ hr {
 }
 
 .h1-title-base {
-  font-family: "font-printcess";
+  font-family: "vintage";
   text-align: center;
-  padding-bottom: 5px;
-  font-size: 4rem;
-  margin: 5px;
+  margin-top: 2.5rem;
+  font-size: 40px;
 }
 
 .h2-title-base {
-  font-family: "font-printcess";
+  font-family: "vintage";
   text-decoration: underline;
-  font-size: 3.5rem;
+  font-size: 30px;
   text-align: center;
   font-weight: normal;
   margin: 5px;
+  margin-top: 1rem;
+  background: -webkit-linear-gradient(#0A2733, #7D2636);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.radiolive-h3 {
+  font-family: "vintage";
+  font-size: 30px;
+  text-align: center;
+  color: #0A2733;
 }
 
 strong {
@@ -73,13 +83,13 @@ strong {
   .navbar-primary {
     background-color: #3E131B;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 20px;
   }
   .dont-share-high-reso {
     display: none;
   }
   .columna-left-content .text-pd {
-    font-size: 23px;
+    font-size: 18px;
     line-height: 1.5rem;
   }
   .columna-left-content .txt-monito-coder {
@@ -105,12 +115,24 @@ strong {
     font-size: 40px;
   }
   .column-right-main .right-content-body {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 0rem;
     padding-bottom: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
   .column-right-main .forte1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .column-right-main .radiolive-h3 {
+    font-family: "vintage";
+    font-size: 22px;
+    text-align: center;
+    color: #0A2733;
+  }
+  .column-right-main .botom-right-config {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
   .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button {
     width: 250px;
@@ -122,7 +144,7 @@ strong {
   }
   .footer-content .navbar-footer a {
     padding: 2px 7px;
-    font-size: 13px;
+    font-size: 18px;
   }
   footer .ir-arriba {
     font-size: 10px;
@@ -148,7 +170,7 @@ strong {
   .navbar-primary {
     background-color: #3E131B;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 18px;
   }
   .banner-top-main .navbar-primary a {
     padding: 14px 9px;
@@ -157,33 +179,53 @@ strong {
     display: none;
   }
   .columna-left-content .text-pd {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5rem;
   }
   .columna-left-content .txt-monito-coder {
     font-size: 16px;
   }
   .columna-left-content .monito-coder {
-    width: 70%;
     height: 70%;
   }
   .columna-left-content .monito-coder .img-monito-coder {
-    width: 70%;
     height: 70%;
   }
   .columna-left-content .pg-cnfg3 {
-    justify-content: flex-end;
+    justify-content: center;
+  }
+  .column-right-main .body-text-ausp, .column-right-main .body-text-content-p2 {
+    font-size: 20px;
   }
   .column-right-main .animated-title3 {
     font-size: 40px;
   }
   .column-right-main .right-content-body {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 0rem;
     padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .column-right-main .radiolive-h3 {
+    font-family: "vintage";
+    font-size: 18px;
+    text-align: center;
+    color: #0A2733;
   }
   .column-right-main .forte1 {
-    font-size: 40px;
+    font-size: 20px;
+  }
+  .column-right-main .h1-title-base {
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .column-right-main .h2-title-base {
+    margin-top: 2rem;
+    font-size: 20px;
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
   .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button {
     width: 250px;
@@ -195,7 +237,6 @@ strong {
   }
   .footer-content .navbar-footer a {
     padding: 2px 3px;
-    font-size: 10px;
   }
   footer .ir-arriba {
     font-size: 10px;
@@ -216,13 +257,17 @@ strong {
   .navbar-primary {
     background-color: #3E131B;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 15px;
   }
   .banner-top-main .navbar-primary a {
     padding: 14px 9px;
   }
   .grid-body-main {
     display: flex;
+  }
+  .wapp1 {
+    padding-top: 0 !important;
+    margin-top: 0;
   }
   .top-img-low-reso {
     display: flex !important;
@@ -259,7 +304,7 @@ strong {
   }
   .footer-content .navbar-footer a {
     padding: 2px 3px;
-    font-size: 10px;
+    font-size: 16px;
   }
   footer .ir-arriba {
     font-size: 10px;
@@ -293,9 +338,38 @@ strong {
   .radio-rep {
     padding-bottom: 3rem;
   }
-  .logo-para-top {
-    width: 50%;
-    height: 30%;
+  .logo-para-bot {
+    width: 120px;
+    margin: 0;
+  }
+  .gridbottom-sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .grid-sma {
+    display: flex;
+  }
+  .logo-para-bot2 {
+    width: 120px;
+    margin: 0;
+  }
+  .text-pd11 {
+    font-size: 12px;
+  }
+  .espacio-1 {
+    margin-right: 10px;
+  }
+  .espacio-2 {
+    margin-right: 10px;
+  }
+  .title-slo {
+    color: #CACECA;
+  }
+  .img-monito-coder {
+    width: 110px;
+    margin: 0;
   }
   .column-right-main .body-text-ausp {
     font-size: 28px;
@@ -315,8 +389,42 @@ strong {
     overflow: hidden;
     font-size: 12px;
   }
+  .banner-top-main {
+    background-color: #0A2733 !important;
+  }
   .banner-top-main .navbar-primary a {
     padding: 14px 9px;
+  }
+  .radiolive-h3 {
+    font-size: 16px;
+  }
+  .low-ms-mq {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .fila {
+    border-radius: 1rem;
+  }
+  .low-ms-q {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 20px;
+    background-color: #0A2733;
+  }
+  .low-ms-mm {
+    border-radius: 1rem;
+    border: 3px solid #CACECA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .grid-body-main {
     display: flex;
@@ -335,6 +443,16 @@ strong {
   }
   .column-right-main .animated-title3 {
     font-size: 40px;
+  }
+  .column-right-main .h1-title-base {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .column-right-main .h2-title-base {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .column-right-main .right-content-body {
     font-size: 20px;
@@ -356,7 +474,340 @@ strong {
   }
   .footer-content .navbar-footer a {
     padding: 2px 3px;
+    font-size: 13px;
+  }
+  footer .ir-arriba {
     font-size: 10px;
+  }
+  footer .copy-config {
+    font-size: 14px;
+  }
+  footer .navbar-footer {
+    font-size: 22px;
+  }
+  .column-right-main .form-container {
+    transform: scale(0.8);
+    transform-origin: center center;
+    margin: 0 auto;
+  }
+  .column-right-main .animated-title1, .column-right-main .animated-title2, .column-right-main .animated-title3 {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  .column-right-main .animated-title1 {
+    padding-top: 1rem;
+  }
+  .column-right-main p, .column-right-main .p1 {
+    margin-bottom: 2px;
+  }
+  .column-right-main .main-title-b {
+    padding-top: 1rem;
+  }
+  .column-right-main .body-text-envivo {
+    font-size: 28px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .radio-rep {
+    padding-bottom: 3rem;
+  }
+  .cuadroBordeado {
+    width: 80%;
+  }
+  .column-right-main .body-text-ausp {
+    font-size: 28px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .column-right-main .body-text-content-p2 {
+    font-size: 26px;
+  }
+}
+.radio-rep {
+  padding-bottom: 3rem;
+}
+
+.logo-para-bot {
+  width: 120px;
+  margin: 0;
+}
+
+.gridbottom-sm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.grid-sma {
+  display: flex;
+}
+
+.logo-para-bot2 {
+  width: 120px;
+  margin: 0;
+}
+
+.text-pd11 {
+  font-size: 12px;
+}
+
+.espacio-1 {
+  margin-right: 10px;
+}
+
+.espacio-2 {
+  margin-right: 10px;
+}
+
+.title-slo {
+  color: #CACECA;
+}
+
+.img-monito-coder {
+  width: 110px;
+  margin: 0;
+}
+
+.blink-1 {
+  animation: blink-1 0.6s infinite both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-8 22:24:48
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation blink-1
+ * ----------------------------------------
+ */
+@keyframes blink-1 {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+.roll-in-right {
+  animation: roll-in-right 0.6s ease-out both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-9 4:38:27
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation roll-in-right
+ * ----------------------------------------
+ */
+@keyframes roll-in-right {
+  0% {
+    transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.tilt-in-bottom-2 {
+  animation: tilt-in-bottom-2 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-9 4:46:23
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation tilt-in-bottom-2
+ * ----------------------------------------
+ */
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-9 4:46:23
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation tilt-in-bottom-2
+ * ----------------------------------------
+ */
+@keyframes tilt-in-bottom-2 {
+  0% {
+    transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+.puff-in-center {
+  animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0.06s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-9 4:53:14
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation puff-in-center
+ * ----------------------------------------
+ */
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-9 4:56:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation puff-in-center
+ * ----------------------------------------
+ */
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.slide-in-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.06s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-1-9 5:0:39
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media (min-width: 200px) and (max-width: 299px) {
+  .navbar-primary {
+    background-color: #3E131B;
+    overflow: hidden;
+  }
+  .banner-top-main .navbar-primary a {
+    padding: 5px 9px;
+    font-size: 14px;
+  }
+  .natvar-background {
+    background-color: #0A2733;
+  }
+  .radiolive-h3 {
+    font-size: 16px;
+  }
+  .low-ms-mq {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .fila {
+    border-radius: 1rem;
+  }
+  .low-ms-q {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 20px;
+    background-color: #0A2733;
+  }
+  .low-ms-mm {
+    border-radius: 1rem;
+    border: 3px solid #CACECA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .grid-body-main {
+    display: flex;
+  }
+  .top-img-low-reso {
+    display: flex !important;
+    background-color: #0A2733;
+    justify-content: center;
+  }
+  .logo-para-top {
+    width: 30%;
+    height: 30%;
+  }
+  .grid-body-main .columna-left-main {
+    display: none;
+  }
+  .column-right-main .animated-title3 {
+    font-size: 40px;
+  }
+  .column-right-main .h1-title-base {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .column-right-main .h2-title-base {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .column-right-main .right-content-body {
+    font-size: 20px;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .column-right-main .forte1 {
+    font-size: 40px;
+  }
+  .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button {
+    width: 250px;
+    height: 50px;
+  }
+  .column-right-main .botom-right-config .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton button img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-content .navbar-footer a {
+    padding: 2px 3px;
+    font-size: 13px;
   }
   footer .ir-arriba {
     font-size: 10px;
@@ -621,7 +1072,7 @@ body {
 }
 
 .txt-programa-destacado {
-  font-family: "font-printcess";
+  font-family: "jupiteroid-regular";
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-left: 10%;
@@ -631,11 +1082,11 @@ body {
 }
 
 .txt-monito-coder {
-  font-family: "font-printcess";
+  font-family: "jupiteroid-regular";
   padding-top: 1rem;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -645,7 +1096,7 @@ body {
 }
 
 .text-pd {
-  font-size: 35px;
+  font-size: 20px;
   line-height: 1.9rem;
 }
 
@@ -718,11 +1169,11 @@ body {
 .right-content-body {
   padding-top: 3rem;
   text-align: center;
-  font-family: "font-printcess";
-  font-size: 40px;
+  font-family: "fistalle";
+  font-size: 26px;
   font-weight: bold;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 17rem;
+  padding-right: 17rem;
   padding-bottom: 5rem;
 }
 
@@ -745,7 +1196,7 @@ body {
 }
 
 .forte1 {
-  font-size: 65px;
+  font-size: 40px;
 }
 
 .p1 {
@@ -905,7 +1356,7 @@ h3 {
 
 .solapa-programacion {
   text-align: center;
-  font-family: "font-printcess";
+  font-family: "jupiteroid-regular";
 }
 
 @media screen and (max-width: 1100px) {
@@ -930,7 +1381,7 @@ h3 {
 }
 .body-text-ausp, .body-text-content-p2 {
   text-align: center;
-  font-family: "font-printcess";
+  font-family: "jupiteroid-regular";
   font-size: 40px;
   font-weight: bolder;
 }
@@ -957,7 +1408,7 @@ h3 {
 }
 .body-text-envivo {
   text-align: center;
-  font-family: "font-printcess";
+  font-family: "jupiteroid-regular";
   font-size: 40px;
   font-weight: bolder;
   padding-bottom: 3rem;
@@ -969,11 +1420,13 @@ h3 {
 }
 
 .mark-section {
-  font-size: 50px;
-  font-family: "font-printcess";
+  font-size: 26px;
+  font-family: "jupiteroid-regular";
   margin: 8rem;
   text-align: justify;
-  padding: 0;
+  background-color: #0A2733;
+  border-radius: 2rem;
+  padding: 2rem;
 }
 
 .mark-color1 {
@@ -988,32 +1441,27 @@ h3 {
   padding: 0;
 }
 
-.mark-section {
-  background-color: #0A2733;
-  border-radius: 2rem;
-  padding: 2rem;
-}
-
 @media (max-width: 1200px) {
   .mark-section {
-    font-size: 30px;
+    font-size: 24px;
+    margin: 3rem;
   }
 }
 @media (max-width: 1000px) {
   .mark-section {
-    font-size: 30px;
+    font-size: 20px;
     margin: 3rem;
   }
 }
 @media (max-width: 700px) {
   .mark-section {
-    font-size: 20px;
+    font-size: 17px;
     margin: 2rem;
   }
 }
 @media (max-width: 481px) {
   .mark-section {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     margin: 1rem;
   }
@@ -1214,10 +1662,10 @@ button {
     max-width: 450px;
   }
   .h1-title-base {
-    font-size: 2.5rem;
+    font-size: 25px;
   }
   .h2-title-base {
-    font-size: 2rem;
+    font-size: 20px;
   }
 }
 @media (max-width: 471px) {
@@ -1363,8 +1811,16 @@ a {
   src: url("../fonts/didactgothic-regular.ttf");
 }
 @font-face {
-  font-family: "font-printcess";
-  src: url(../fonts/font-printcess.ttf);
+  font-family: "vintage";
+  src: url(../fonts/vintage.ttf);
+}
+@font-face {
+  font-family: "jupiteroid-regular";
+  src: url(../fonts/jupiteroid-regular.ttf);
+}
+@font-face {
+  font-family: "fistalle";
+  src: url(../fonts/fistalle.ttf);
 }
 @font-face {
   font-family: "rockersquad";

@@ -7,6 +7,7 @@
 @import "./partials/mquery601x768";
 @import "./partials/mquery480x600";
 @import "./partials/mquery300x479";
+@import "./partials/mquery200";
 //Partes del Cuerpo de página.
 @import "./partials/header";
 @import "./partials/left-column";
@@ -46,8 +47,19 @@
 }
 
 @font-face {
-    font-family: "font-printcess";
-    src: url(../fonts/font-printcess.ttf)
+    font-family: "vintage";
+    src: url(../fonts/vintage.ttf)
+}
+
+@font-face {
+    font-family: "jupiteroid-regular";
+    src: url(../fonts/jupiteroid-regular.ttf)
+}
+
+
+@font-face {
+    font-family: "fistalle";
+    src: url(../fonts/fistalle.ttf)
 }
 
 @font-face {

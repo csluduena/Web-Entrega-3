@@ -26,6 +26,12 @@ main {
     background-color: $color2; /* Color de fondo para la segunda columna */
 }
 
+// .h3-aus {
+//     color: $color3;
+//     font-family: "vintage";
+//     text-align: center;
+// }
+
 hr {
     margin-top:0;
     margin-bottom:0;
@@ -33,20 +39,30 @@ hr {
 }
 
 .h1-title-base {
-    font-family: "font-printcess";
+    font-family: "vintage";
     text-align: center;
-    padding-bottom: 5px;
-    font-size: 4rem;
-    margin: 5px;
+    margin-top:2.5rem;
+    font-size: 40px;
 }
 
 .h2-title-base {
-    font-family: "font-printcess";
+    font-family: "vintage";
     text-decoration: underline;
-    font-size: 3.5rem;
+    font-size: 30px;
     text-align: center;
     font-weight: normal;
     margin: 5px;
+    margin-top: 1rem;
+    background: -webkit-linear-gradient($color1, $color5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.radiolive-h3 {
+    font-family: "vintage";
+    font-size: 30px;
+    text-align: center;
+    color:$color1;
 }
 
 strong {

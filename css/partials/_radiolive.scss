@@ -1,6 +1,6 @@
 .body-text-envivo {
     text-align: center;
-    font-family: "font-printcess";
+    font-family: "jupiteroid-regular";
     font-size: 40px;
     font-weight: bolder;
     padding-bottom: 3rem;
@@ -12,13 +12,15 @@
 }
 
 .mark-section {
-    font-size: 50px;
-    font-family: "font-printcess";
+    font-size: 26px;
+    font-family: "jupiteroid-regular";
     margin:8rem;
     text-align: justify;
     //border-radius: 2rem;
     //quitar espacios entre lineas de texto 
-    padding:0;
+    background-color: $color1;
+    border-radius: 2rem;
+    padding: 2rem;
 }
 
 .mark-color1 {
@@ -34,36 +36,30 @@
     padding:0;
 }
 
-.mark-section {
-    background-color: $color1;
-    border-radius: 2rem;
-    padding: 2rem;
-    
-}
-
 @media (max-width: 1200px) {
     .mark-section {
-        font-size: 30px;
+        font-size: 24px;
+        margin: 3rem;
     }
 }
 
 @media (max-width: 1000px) {
     .mark-section {
-        font-size: 30px;
+        font-size: 20px;
         margin: 3rem;
     }
 }
 
 @media (max-width: 700px) {
     .mark-section {
-        font-size: 20px;
+        font-size: 17px;
         margin: 2rem;
     }
 }
 
 @media (max-width: 481px) {
     .mark-section {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         margin: 1rem;
     }

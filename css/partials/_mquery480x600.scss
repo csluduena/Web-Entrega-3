@@ -3,7 +3,7 @@
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
         overflow: hidden;
-        font-size: 12px;
+        font-size: 15px;
     }
     .banner-top-main {
         .navbar-primary a {
@@ -14,6 +14,12 @@
         display: flex;
         
     }
+
+    .wapp1 {
+        padding-top: 0!important ;
+        margin-top: 0;
+    }
+
 //****************** TOP Query 480-600 ******************
     .top-img-low-reso {
         display:flex !important;
@@ -59,11 +65,13 @@
         }
         }// Cierra Estilos para el iframe
     }
+
+    
 //****************** FOOTER Query 480-600 ******************
     .footer-content {
         .navbar-footer a {
             padding: 2px 3px;
-            font-size: 10px;
+            font-size: 16px;
         }      
     }
     footer {
@@ -107,9 +115,57 @@
         padding-bottom: 3rem;
     }
     .logo-para-top {
-        width: 50%;
-        height: 30%;
     }
+
+    .logo-para-bot {
+        width: 120px;
+        margin:0;
+    }
+
+    .gridbottom-sm{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+    }
+
+    .grid-sma {
+        display: flex;
+    }
+
+    .logo-para-bot2 {
+        width: 120px;
+        margin:0;
+    }
+
+    .text-pd11 {
+        font-size: 12px;
+    }
+
+    .espacio-1 {
+        margin-right: 10px;
+    }
+
+    .espacio-2 {
+        margin-right: 10px;
+    }
+
+    .espacio-3 {
+            
+    }
+
+
+
+    .title-slo {
+        color: $color2;
+    }
+
+    .img-monito-coder {
+        width: 110px;
+        margin:0;
+    }
+
 //********* MEDIA PARA AUSPICIANTES.HTML Query 480-600 *********
     .column-right-main {
         .body-text-ausp {

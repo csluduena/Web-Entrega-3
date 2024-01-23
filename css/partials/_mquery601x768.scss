@@ -8,7 +8,7 @@
     .navbar-primary { //Tamaño botones Header
         background-color: $color3;
         overflow: hidden;
-        font-size: 12px;
+        font-size: 18px;
     }
     .banner-top-main {
         .navbar-primary a {
@@ -22,36 +22,59 @@
 //****************** COLUMNA IZQUIERDA Query 601-768 ******************
     .columna-left-content {
         .text-pd {
-            font-size: 20px;
+            font-size: 15px;
             line-height: 1.5rem;// line-height para renglones en horizontal
         }
         .txt-monito-coder {
             font-size: 16px;
         }
         .monito-coder {
-            width: 70%;
             height: 70%;
             .img-monito-coder {
-                width: 70%;
                 height: 70%;
             }
         }   
         .pg-cnfg3 {
-            justify-content: flex-end;
+            justify-content: center;
         }
     }
+
 //****************** COLUMNA DERECHA Query 601-768 ******************
     .column-right-main {
+        .body-text-ausp, .body-text-content-p2 {
+            font-size: 20px;
+        }
         .animated-title3 {
             font-size: 40px;
         }
         .right-content-body {
-        font-size: 25px;
+        font-size: 20px;
         padding-top:0rem;
         padding-bottom: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem; 
         }
+
+        .radiolive-h3 {
+            font-family: "vintage";
+            font-size: 18px;
+            text-align: center;
+            color:$color1;
+        }
+
         .forte1 {
-            font-size: 40px;
+            font-size: 20px;
+        }
+        .h1-title-base {
+            font-size: 20px;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+        .h2-title-base {
+            margin-top: 2rem;
+            font-size: 20px;
+            margin-left: 7rem;
+            margin-right: 7rem;
         }
       // Estilos para el iframe
     .botom-right-config {
@@ -71,7 +94,6 @@
     .footer-content {
         .navbar-footer a {
             padding: 2px 3px;
-            font-size: 10px;
         }      
     }
     footer {

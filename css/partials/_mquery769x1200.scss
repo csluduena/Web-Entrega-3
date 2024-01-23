@@ -8,7 +8,7 @@
         .navbar-primary { //Tamaño botones Header
             background-color: $color3;
             overflow: hidden;
-            font-size: 16px;
+            font-size: 20px;
     }
     .dont-share-high-reso {
         display:none;
@@ -16,7 +16,7 @@
     //****************** COLUMNA IZQUIERDA Query 769-1200 ******************
         .columna-left-content {
             .text-pd {
-                font-size: 23px;
+                font-size: 18px;
                 line-height: 1.5rem;// line-height para renglones en horizontal
             }
             .txt-monito-coder {
@@ -47,15 +47,25 @@
                 font-size: 40px;
             }
             .right-content-body {
-            font-size: 25px;
+            font-size: 20px;
             padding-top:0rem;
             padding-bottom: 2rem;
+            padding-left: 7rem;
+            padding-right: 7rem; 
             }
             .forte1 {
-                font-size: 40px;
+                font-size: 30px;
+            }
+            .radiolive-h3 {
+                font-family: "vintage";
+                font-size: 22px;
+                text-align: center;
+                color:$color1;
             }
           // Estilos para el iframe
         .botom-right-config {
+            margin-top: 5rem;
+            margin-bottom: 2rem;
             .animate__animated.animate__fadeIn.animate__delay-4s.radio-popup-boton {
                 button {
                     width: 250px;
@@ -72,7 +82,7 @@
         .footer-content {
             .navbar-footer a {
                 padding: 2px 7px;
-                font-size: 13px;
+                font-size: 18px;
             }      
         }
         footer {
